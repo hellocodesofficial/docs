@@ -20,4 +20,13 @@ description: 문제 API
 }
 ```
 {% endswagger-response %}
+
+{% swagger-response status="404: Not Found" description="" %}
+```json
+{
+  “code”: 404,
+  “message”: ‘[에러 메시지]‘
+}
+```
+{% endswagger-response %}
 {% endswagger %}
